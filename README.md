@@ -9,7 +9,7 @@
 
 Nếu chỉ muốn dùng app và không cần cài Python:
 
-1. Mở trang Release: <https://github.com/BapTruongSinh/FilterAndCrop/releases/latest>
+1. Mở trang Release: [https://github.com/BapTruongSinh/FilterAndCrop/releases/latest](https://github.com/BapTruongSinh/FilterAndCrop/releases/latest)
 2. Tải file `FilterAndCrop.exe` trong phần Assets.
 3. Chạy trực tiếp file `FilterAndCrop.exe`.
 
@@ -72,10 +72,3 @@ image_name,folder,x1,x2,y1,y2
 ```
 
 Khi load ảnh, app sẽ tự tạo hoặc cập nhật dòng CSV cho từng ảnh trong `Image folder`. Nếu ảnh đã có tọa độ hợp lệ, app vẽ khung màu xanh lá. Khi crop mới trong app, app lưu ảnh crop vào `Crop folder`, ghi đè ảnh crop cũ nếu trùng tên file và cập nhật tọa độ mới vào CSV.
-
-## Ghi Chú Về Source
-
-- Code chính nằm trong `app.py`.
-- `FilterAndCrop.spec` dùng để build exe bằng PyInstaller.
-- `requirements.txt` liệt kê thư viện cần cài đặt.
-- Các hàm trong `app.py` có docstring tiếng Việt để mô tả nhiệm vụ của từng hàm.
